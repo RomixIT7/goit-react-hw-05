@@ -1,0 +1,38 @@
+.searchForm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  font-size: 20px;
+  border: 3px solid forestgreen;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: lightcyan;
+  outline: none;
+  color: darkblue;
+}
+
+.searchInput:focus {
+  border-color: darkgreen;
+}
+
+.searchInput::placeholder {
+  color: darkblue;
+}
+
+.searchBtn {
+  font-size: 20px;
+  padding: 8px 16px;
+  border: 3px solid darkgreen;
+  border-radius: 10px;
+  background-color: forestgreen;
+  color: azure;
+  box-shadow: inset -2px -2px 4px darkgreen;
+}
+
+.searchBtn:hover {
+  background-color: green;
+}

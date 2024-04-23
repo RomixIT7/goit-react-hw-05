@@ -1,0 +1,38 @@
+.notFoundPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.notFoundText {
+  padding: 20px;
+  font-size: 36px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: inset -1px -1px 5px 3px darkred;
+}
+
+.redirectedText {
+  font-size: 24px;
+  color: darkblue;
+}
+
+.linkToHome {
+  font-size: 20px;
+  padding: 8px 16px;
+  border: 3px solid darkgreen;
+  border-radius: 10px;
+  background-color: forestgreen;
+  color: azure;
+  box-shadow: inset -2px -2px 4px darkgreen;
+}
+
+.linkToHome:hover {
+  background-color: green;
+}

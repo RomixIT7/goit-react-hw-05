@@ -1,0 +1,32 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.nav {
+  background-color: yellowgreen;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.link {
+  padding: 8px 16px;
+  font-size: 24px;
+  color: darkgreen;
+  border-radius: 10px;
+}
+
+.link:hover {
+  color: black;
+}
+
+.active {
+  background-color: darkgreen;
+  color: white;
+}
+
+.active:hover {
+  color: white;
+}

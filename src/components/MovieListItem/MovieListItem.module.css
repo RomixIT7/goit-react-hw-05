@@ -1,0 +1,19 @@
+.movieItem {
+  width: 600px;
+  text-align: center;
+  background-color: blue;
+  box-shadow: inset -1px -1px 10px darkblue;
+  border-radius: 10px;
+  transition: transform 300ms ease;
+}
+
+.movieItem:hover {
+  transform: scale(1.05);
+}
+
+.movieLink {
+  display: block;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+}

@@ -1,0 +1,31 @@
+.movieCastList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.movieCastListItem {
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieCastListItem:hover {
+  box-shadow: 1px 1px 5px darkgreen;
+}
+
+.movieCastListInfoBox {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
